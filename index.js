@@ -62,7 +62,7 @@ function removeFromCart(item) {
   var index=-1;
   for(let i=0;i<cart.length;i++){
     var obj=cart[i];
-    if(obj.itemName==item.itemName)
+    if(obj.itemName==item)
     {
       index=i;
       break;
